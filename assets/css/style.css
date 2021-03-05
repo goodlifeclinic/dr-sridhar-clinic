@@ -1793,7 +1793,10 @@ section {
 }
 
 #footer .credits {
-  padding-top: 10px;
+  padding-top: 22px;
   text-align: center;
   font-size: 13px;
+}
+.tac{
+  text-align: center;
 }
