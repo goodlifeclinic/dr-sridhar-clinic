@@ -846,7 +846,8 @@ section {
   display: block;
   font-size: 30px;
   color: #3fbbc0;
-  float: left;
+  text-align: center;
+  /* float: left; */
 }
 
 .counts .count-box span {
@@ -1802,4 +1803,21 @@ section {
 }
 .f17{
   font-size: 17px !important;
+}
+.services ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #3fbbc0;
+}
+.services ul {
+  /* list-style: none; */
+  /* padding: 0; */
+  text-align: left;
+  /* padding-left: 24px; */
+}
+.services li {
+  margin-bottom: 6px;
+}
+.services li::marker {
+  color: #3fbbc0;
 }
